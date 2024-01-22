@@ -7,6 +7,7 @@ import Character from './components/Character'
 import Roll from './components/Roll'
 import Home from './components/Home'
 import Error from './components/Error'
+import Library from './components/Libary'
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,10 @@ const router = createBrowserRouter([
         path: "character",
         element: <Character/>
       },
-      
+      {
+        path: "library",
+        element: <Library/>
+      },
       {
         index: true,
         element: <Home/>
