@@ -1,5 +1,21 @@
+import Button from '@mui/material/Button';
+import { ButtonGroup } from '@mui/material';
+import { Link } from 'react-router-dom';
+
 export default function Navbar(){
     return (
-        <h1> This is a navigation bar </h1>
+        <div class="navbar-group">
+            <div class="link-border">
+                 <Link to= "/character">
+                    <span>Character</span>
+                 </Link>
+                 
+            </div>
+            <div class="link-border">
+                <Link to= "/roll">
+                    <span>Roll</span>
+                </Link>
+            </div>
+        </div>
     )
 }
