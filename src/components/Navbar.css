@@ -1,0 +1,20 @@
+
+span {
+    font-size: 22px;
+}
+
+.navbar-group {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link-border {
+  display: inline-block;
+  border-style: solid;
+  border-color: rgb(66, 165, 245);
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100px;
+}
