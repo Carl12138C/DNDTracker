@@ -7,6 +7,10 @@ import { fontSize } from "@mui/system";
 export default function Navbar() {
   return (
     <div className="navbar-group">
+      <img className="logo" src="public\dnd_logo.png"/>
+      <div className="link-border-logo">
+        <span className="logo-text">DNDTracker</span>
+      </div>
       <div className="link-border">
         <Link to="">
             <span>Home</span>
