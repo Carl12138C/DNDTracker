@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .logo {
-  height: 52px;
-  width: auto;
+  height: 56px;
+  width: 56px;
   margin-right: -10px;
 }
 
@@ -20,7 +20,7 @@ span {
 .navbar-group {
   text-align: center;
   display: flex;
-  border-style: solid;
+  /* border-style: solid; */
   background-color: #590904;
 }
 
