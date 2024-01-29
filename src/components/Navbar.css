@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .logo {
-  height: 56px;
-  width: 56px;
+  height: 55px;
+  width: 55px;
   margin-right: -10px;
 }
 
@@ -22,6 +22,7 @@ span {
   display: flex;
   /* border-style: solid; */
   background-color: #590904;
+  /* outline: 1px solid; */
 }
 
 .link-border {
@@ -35,4 +36,5 @@ span {
   margin-left: 0px;
   margin-top: 16px;
   width: 140px;
+  
 }
