@@ -1,0 +1,15 @@
+#base-container {
+    display: block;
+}
+
+#modifier-container {
+    border: solid;
+    display: inline-block;
+    width: 49%;
+}
+
+#dice-container {
+    border: solid;
+    display: inline-block;
+    width: 49%;
+}
